@@ -2,7 +2,8 @@
 A lightweight Windows desktop app built with (Python + Tkinter) that converts minutes into decimal hours (e.g., `37 → 0.62`)—handy for quick time entry and timesheets.
 
 # Screenshot
-![App Screenshot](assets/screenshot.png)
+<img width="383" height="246" alt="App Screenshot" src="https://github.com/user-attachments/assets/a95fe6db-2353-492f-b89a-1e14ca5c3619" />
+
 
 
 ## Features
