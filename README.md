@@ -1,14 +1,44 @@
 # MinutesToHours
-Small Tkinter App to conver menutes to hours, because I was struggling when I submit my hours in my remote job (converting minutes to hours allways a biti annoying to open calculator and do the operation)
-# MinutesToHours
+A lightweight Windows desktop app built with (Python + Tkinter) that converts minutes into decimal hours (e.g., `37 → 0.62`)—handy for quick time entry and timesheets.
 
-A tiny Windows desktop tool (Tkinter) that converts minutes to hours.
+# Screenshot
+![App Screenshot](assets/screenshot.png)
+
 
 ## Features
 - Convert minutes → hours instantly
 - Clean, simple UI
-- Works on Windows 11 (64-bit)
+- Works on Windows
+- Downloadable Windows (.exe) via GitHub (Releases)
 
-## Run locally
-```bash
-python app.py
+# Download (Windows)
+1. Go to the (Releases) section of this repository.
+2. Download (MinutesToHours.exe)
+3. Run it (Windows may show a security prompt for unsigned apps).
+
+# Run Locally (Developer)
+From the project root:
+python src/app.py
+
+#Build a Windows .exe (PyInstaller)
+1) Install PyInstaller
+   py -m PyInstaller --onefile --windowed --name MinutesToHours src/app.py
+2) Build
+   py -m PyInstaller --onefile --windowed --name MinutesToHours src/app.py
+3) Output
+   dist/MinutesToHours.exe
+   
+#Project Structure
+MinutesToHours/
+├─ src/
+│  └─ app.py
+├─ assets/
+│  ├─ icon.ico
+│  └─ screenshot.png
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+
+#License
+::contentReference[oaicite:0]{index=0}
+
